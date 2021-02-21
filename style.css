@@ -14,7 +14,7 @@ h2 {
 	font-weight: 500 !important;
 	font-size: 20px;
 	color: #4f4f4f;
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 .btn-link {
@@ -85,4 +85,7 @@ hr {
 
 .caption {
 	text-align: center;
+}
+.img-main {
+	padding:0px!important;
 }
