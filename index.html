@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid text-center">
-       <img class="img-fluid" src="img/logo.svg" alt="Search Sustainable Logo" width="50%">
+       <img class="img-fluid img-main" src="img/logo.svg" alt="Search Sustainable Logo" width="50%">
        <h2 class="lead">Hanieka Balint, Eoin Daly, Mia Kotalik, and Ethan Rush</h2>
     </div>
     <div class="container">
@@ -27,6 +27,7 @@
           <div class="col-md-6"><img class="img-fluid" src="img/mia.jpg" alt="Mia"><p class="caption">Mia taking a coffee break on Night 2 of HackBeanPot</p>  </div>
        </div>
 		<br>
+		<hr>
 		<br>
 		
 		<div class="row">
@@ -35,24 +36,43 @@
 				<p>We used Figma and Adobe Creative Suite to research and create the design strategy for our brand. Search and Sustainable is a helpful tool for making environmentally-conscious decisions, and so we created a style guide and logo that is clean, modern, and user-friendly. </p>
 			</div>
        </div>
-       <br/>
-       <br/>
+       <br>
+		<hr>
+       <br>
                <div class="row">
           <div class=" col-md-6"><h1 class="text-left">Development</h1>
-<p>Our app is a Python Flask app that uses the Bootstrap framework and Jinja templating. The database is Google Firebase, which is a cloud NoSQL database. The Python packages Selenium, and LXML were used for webcrawling.</p><p>We used the following text stacks:<br>
-			  Bootstrap<br>Python<br>Flask<br>Firebase<br>Selenium<br>LXML</p>
+<p>Our app is a Python Flask app that uses the Bootstrap framework and Jinja templating. The database is Google Firebase, which is a cloud NoSQL database. The Python packages Selenium, and LXML were used for webcrawling.</p><p>We used the following text stacks:</p><div class="row"><div class="col-sm-6 col-lg-3"><p>Bootstrap<br>Python<br>Flask</p></p></div><div class="col-sm-6"><p>Firebase<br>Selenium<br>LXML</p></div></div>
+			 
        </div>
-		<div class="col-md-6"><img class="img-fluid" src="img/eoinandethan.jpg" alt="Ethan and Eoin"> <p class="caption">Eoin and Ethan working on the web app's deployment.</p> 
+		<div class="col-md-6"><img class="img-fluid" src="img/eoinandethan.jpg" alt="Ethan and Eoin"> <p class="caption">Eoin and Ethan working on the web app's deployment</p> 
 		  </div>
        </div>
        <br>
+		<hr>
+		<br>
+	                 <div class="row"><div class="col-md-12 "><h1 class="text-center">How it works</h1></div>
+          <div class="col-md-6">
+			  <p>Users can search for a product name and our app will query our database of carefully selected sustainable items. If we do not have enough results in our database our application will use a web socket to connect to our web crawling API. Our custom crawler will query the products of sustainable vendors and show them as results to the users. These items will also be added to our catalog. Our database will learn from the preferences of our users to improve itself.</p> 
+			
+			  <p>If the users find a sustainable item from a source outside of our database they can request to add the product to our site by filing out a request form. Administrators are notified of these requests and can look them over and decide if the product should be added to our database. If so admins can use the dashboard tools to add the requested item.</p> </div>
+		  <div class="col-md-6">
+			  <p>If a user finds a product that is not sustainable or otherwise unworthy of being on our site they can report it by pressing the report button in the bottom corner of the product card. The user enters a brief reason for the report and our admins are notified of the possible flawed product. Using the admin tools, our team can choose to remove the product or resolve the report in a manner they see fit.</p>
+			
+			  <p>Our admin user authentication process is powered by Firebase. If an administrator forgets their password they can use the forgot password link. They will get an email with a reset link fitted with a verification token that will allow them to securely reset their password.</p></div>
+       </div>
+	  <br>
+	  <hr>
+	  <br>
 		<div class="row">
           <div class="col-md-6"><img class="img-fluid" src="img/charlie1.jpg" alt="Charlie"> <p class="caption">Charlie debugging our code</p>  </div>
 			<div class=" col-md-6"><h1 class="text-left">Finished Project</h1> 
-				<p>I've seen it in the workers who would rather cut their hours back a day than see their friends lose their jobs, in the soldiers who re-enlist after losing a limb, in the good neighbors who take a stranger in when a hurricane strikes and the floodwaters rise. We are shaped by every culture, drawn from every end of the Earth, and dedicated to a simple concept: E pluribus unum: "Out of many, one."</p>
+				<p>Our finished project is a web app that INSERT FEATURE 1, FEATURE 2, AND FEATURE 3. Our options for expanding this project in the future include GOAL and GOAL.</p> 
+				<p>Thank you for reading about our project!</p>
+				
 			<a href="https://www.searchsustainable.org" target="_blank"> 
 		<p class="btn-link">Check out the finished web app</p> </a></div></div>
        </div>
+	</div>
 	  <br>
 	  <br>
        <hr>
