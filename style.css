@@ -71,7 +71,7 @@ transform: translate(-50%,-50%);
 
 p {
 	text-align: left;
-	font-family: Museo Sans;
+	font-family: Museo Sans, Helvetica, Arial, sans-serif;
 	color: #4f4f4f;
 }
 
