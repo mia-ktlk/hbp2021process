@@ -1,3 +1,61 @@
 @charset "UTF-8";
 /* CSS Document */
+h1 {
+	font-family: Rubik;
+	font-weight: 900 !important;
+	font-size: 50px;
+	padding: 30px;
+	color: #5ed08c;
+}
 
+h2 {
+	font-family: Museo Sans;
+	font-weight: 500 !important;
+	font-size: 20px;
+	color: #4f4f4f;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  width: 25%;
+}
+
+img {
+	max-width: 500px;
+	padding: 40px;
+}
+
+.loader {
+	height: 1500px;
+	weight: 1500px;
+	position: fixed;
+	background-color: #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 999;
+}
+
+.loader img{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.jumbotron .jumbotron-fluid {
+	background-color:#ffffff;
+}
+
+p {
+	text-align: left;
+	font-family: Museo Sans;
+	color: #4f4f4f;
+}
